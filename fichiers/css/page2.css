@@ -1,0 +1,116 @@
+/* ****************************************************************************
+***** FEUILLE DE STYLE PAGE 2 LIEN DE NAVIGATION: "CONTACT" *******************
+*******************************************************************************/
+*{
+	margin: 0; 
+	padding: 0;
+} 
+
+/* Image de fond d'écran identique sur tout le site*/ 
+body{
+	background-image: url('../images/fond-tropical.jpg');
+}
+
+/* Navigation identique dans les 3 pages html rappel du thème général du jeu*/
+#navigateur{
+	width: 1200px;
+	height: 60px;
+	margin: auto;
+	color: #205B73; 
+}
+
+#menu{
+	padding: 0;  
+	margin: auto;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 1200px;
+	height: 60px;
+	border-radius: 5px 5px 5px 5px;
+	font-family: Papyrus, "Comic Sans MS", Arial, Helvetica;
+	font-size: 1.8em;
+    font-weight: bold;
+	border: 4px solid black;
+}
+
+nav{
+	padding: 10px 0 0 0;
+	margin: 15px 0 20px;
+}
+
+/* Image en rapport avec le thème du jeu*/
+nav ul{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	background-image: url('../images/menu.png');
+	background-repeat:repeat;
+}
+
+nav ul li{
+	display: inline-block; 
+	list-style-type: none;
+	margin: 0;
+	text-transform: uppercase; 
+	padding: 6px 5%;
+	color: #205B73; 
+}
+
+nav>ul>li{
+	position: relative;
+}
+
+a{
+	color:black; 
+}	
+
+a:link{	
+	text-decoration:none; 
+}
+
+#fond{
+	background-color:'#4e3d79';
+	background-image: url('../images/background.jpg');
+	width: 1200px;
+	height: 689px;
+	margin: auto;	  
+}
+
+/* Image principal "fond avec cocotier"*/	  
+#fondJeu{          
+	margin: auto;
+	position: relative;
+	background-image: url('../images/fond-jeu1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 4px solid black;
+}
+	  
+/* tableau d'affichage page2.html style css pour l'affichage de ma page contact */
+#tableauContact{
+	background-image: url('../images/tableau-contact.png');
+	position: absolute;
+	margin: auto;
+	width: 900px;
+	height: 510px;
+	text-align: center;
+	top: center;
+	top: 50%; left: 50%; /* à 50%/50% du parent référent */
+	transform: translate(-50%, -50%);	
+	display: block;
+}
+
+#contact{	
+	position: relative;
+	margin: auto;
+	text-align: center;
+	top:20%;
+	text-align: center;
+	font-family: Papyrus, "Comic Sans MS", Arial, Helvetica;
+	font-size: 2em;
+	padding: 10px;
+	color: rgb(158, 21, 17);
+}
+
+		
